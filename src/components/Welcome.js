@@ -1,11 +1,11 @@
 import React from 'react';
 
 const Welcome = ({name}) => {
-    let sayHello = `Hello ${name}!`;
+    let sayHi = `Hey ${name}!`;
     let greetMessage = `Welcome to Newton School.`;
     return (
         <div>
-            <h1>{sayHello}</h1>
+            <h1>{sayHi}</h1>
             <h2>{greetMessage}</h2>
         </div>
     );
